@@ -16,4 +16,6 @@ data <- palmerpenguins::penguins
 ggplot2::ggplot(data) +
   ggplot2::geom_boxplot(aes(x = bill_length_mm, y = flipper_length_mm))
 
+cx
+
 
